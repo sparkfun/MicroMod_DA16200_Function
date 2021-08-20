@@ -20094,6 +20094,11 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <wire x1="0" y1="50.8" x2="81.28" y2="50.8" width="0.2032" layer="97" style="shortdash"/>
 <text x="165.354" y="11.684" size="2.54" layer="94" font="vector">Alex Wende</text>
 <text x="238.252" y="7.112" size="2.54" layer="94" font="vector">V01</text>
+<text x="2.54" y="180.34" size="2.54" layer="94" font="vector">USB Firmware Updating</text>
+<text x="111.76" y="180.34" size="2.54" layer="94" font="vector">DA16200 Module</text>
+<text x="83.82" y="114.3" size="2.54" layer="94" font="vector">MicroMod Connector</text>
+<text x="2.54" y="114.3" size="2.54" layer="94" font="vector">Voltage Regulator</text>
+<text x="2.54" y="45.72" size="2.54" layer="94" font="vector">Buttons</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
