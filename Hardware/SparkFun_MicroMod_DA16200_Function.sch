@@ -20689,9 +20689,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="U1" gate="G$1" pin="GPIOA5"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="TX"/>
-<wire x1="129.54" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
-<label x="132.08" y="63.5" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="J1" pin="RX"/>
+<wire x1="129.54" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
+<label x="132.08" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="U1TXO" class="0">
@@ -20701,9 +20701,9 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <pinref part="U1" gate="G$1" pin="GPIOA4"/>
 </segment>
 <segment>
-<pinref part="J1" gate="J1" pin="RX"/>
-<wire x1="129.54" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
-<label x="132.08" y="66.04" size="1.27" layer="95" xref="yes"/>
+<pinref part="J1" gate="J1" pin="TX"/>
+<wire x1="129.54" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
+<label x="132.08" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="TCLK" class="0">
@@ -20754,26 +20754,26 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="J1" gate="J1" pin="I2C_SCL"/>
-<wire x1="129.54" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
-<label x="132.08" y="73.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="GPIOA8"/>
 <wire x1="210.82" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
 <label x="213.36" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="SCL" class="0">
 <segment>
 <pinref part="J1" gate="J1" pin="I2C_SDA"/>
 <wire x1="129.54" y1="71.12" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
 <label x="132.08" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="SCL" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIOA9"/>
 <wire x1="210.82" y1="134.62" x2="213.36" y2="134.62" width="0.1524" layer="91"/>
 <label x="213.36" y="134.62" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="J1" pin="I2C_SCL"/>
+<wire x1="129.54" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
+<label x="132.08" y="73.66" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RTC_WAKE2" class="0">
@@ -20846,7 +20846,7 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <label x="132.08" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="CS" class="0">
+<net name="!CS!" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GPIOA2"/>
 <wire x1="210.82" y1="152.4" x2="213.36" y2="152.4" width="0.1524" layer="91"/>
